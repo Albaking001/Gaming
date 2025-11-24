@@ -1,0 +1,65 @@
+############################
+# Unity
+############################
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+# Prevent PackageCache from being tracked
+**/PackageCache/
+
+# Crash Reports
+sysinfo.txt
+
+############################
+# Visual Studio / IDE
+############################
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+############################
+# OS-specific
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Unity Packages
+############################
+[Pp]ackages/*
+![Pp]ackages/manifest.json
+![Pp]ackages/packages-lock.json
+
+############################
+# TextMesh Pro
+############################
+*.asset.meta
+
+############################
+# Builds
+############################
+*.apk
+*.aab
+*.xapk
+*.exe
+*.app
+*.ipa
+*.zip
